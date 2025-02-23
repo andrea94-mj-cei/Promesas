@@ -1,0 +1,120 @@
+/* POKEAPI */
+
+.Section {
+    width: 80%;
+    margin: 1rem auto;
+    background-color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+.Section-img {
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Section-img--2{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.Section-div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.Section-btn {
+    padding: .625rem 1.25rem;
+    background-color: royalblue;
+    border-radius: .5rem;
+    color: #ffcb08;
+    cursor: pointer;
+}
+
+.Section-btn:hover{
+    background-color: rgb(106, 135, 222);;
+}
+
+.Section-ul {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem auto;
+}
+
+.Section-p {
+    text-align: center;
+    font-size: 1rem;
+    color: black;
+    text-transform: capitalize;
+    margin: 1.5rem;
+}
+
+.Section-p:hover {
+    transform: scale(1.05);
+    color: royalblue;
+    text-shadow: 1px 1px 5px #ffcb08;
+}
+
+.Section-pokemons{
+    color: royalblue;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+
+/* POKEMON */
+
+.Article-container {
+    width: 70%;
+    margin: 2rem auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.Article-h2 {
+    color: royalblue;
+    text-shadow: 1px 1px 6px #ffcb08;
+    font-size: 3rem;
+    text-transform: capitalize;
+    margin: 1rem auto;
+}
+
+.Article-div {
+    width: 80%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Article-div--p{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.Article-p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.Article-map {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+}

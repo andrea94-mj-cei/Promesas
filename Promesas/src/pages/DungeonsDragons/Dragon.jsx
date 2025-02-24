@@ -9,7 +9,7 @@ const Dragon = () => {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        if (!id) return; // Evita hacer fetch si id no está definido
+        if (!id) return;
         fetchSingleDragon();
     }, [id]);
 
@@ -44,7 +44,7 @@ const Dragon = () => {
 
     return (
         <article className="dragon-container">
-            <h2 className="dragon-title">Dragón: {name}</h2>
+            <h2 className="dragon-title">Monstruo: {name}</h2>
             <div className="dragon-details">
                 <p className="dragon-detail"><b>Tamaño: </b>{size}</p>
                 <p className="dragon-detail"><b>Tipo: </b>{type}</p>

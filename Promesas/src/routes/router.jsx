@@ -6,6 +6,8 @@ import PokeApi from "@/pages/PokeApi/PokeApi";
 import Pokemon from "@/pages/PokeApi/Pokemon";
 import DungeonsDragons from "@/pages/DungeonsDragons/DungeonsDragons";
 import Dragon from "@/pages/DungeonsDragons/Dragon";
+import RandomUser from "@/pages/RandomUser/RandomUser";
+import User from "@/pages/RandomUser/User";
 
 
 
@@ -35,6 +37,14 @@ const router = createBrowserRouter([{
         {
             path: "dungeonsDragons/:id",
             element: <Dragon/>,
+        },
+        {
+            path: "randomUser",
+            element: <RandomUser/>,
+        },
+        {
+            path: "randomUser/:id",
+            element: <User/>,
         }
 
 
